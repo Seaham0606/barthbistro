@@ -182,7 +182,7 @@
     {
         "tokenName": "ent003",
         "dishName": {
-            "english": "Spicy Lamb Belly Hotpot",
+            "english": "Spicy Lamb Belly Stew",
             "chinese": "羊腩煲"
         },
         "description": "Lamb belly stewed in a spicy bean paste sauce.",
@@ -264,7 +264,7 @@
         },
         "description": "Stir-fried celery with smoked tofu and a hint of chili.",
         "meat": "other",
-        "isVegan": false,
+        "isVegan": true,
         "isSpicy": false
     },
     {
@@ -321,5 +321,116 @@
         "meat": "other",
         "isVegan": true,
         "isSpicy": false
+    },
+    {
+        "tokenName": "ent016",
+        "dishName": {
+            "english": "Stir-Fried Mixed Vegetables",
+            "chinese": "爆炒素三鲜"
+        },
+        "description": "Bamboo shoots, wood ear mushrooms, and carrots quickly stir-fried together.",
+        "meat": "other",
+        "isVegan": true,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou001",
+        "dishName": {
+            "english": "Nourishing Old Chicken Soup",
+            "chinese": "滋補老雞湯"
+        },
+        "description": "Free-range chicken and red dates simmered.",
+        "meat": "chicken",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou002",
+        "dishName": {
+            "english": "Jianyang Mutton Soup",
+            "chinese": "簡陽羊肉湯"
+        },
+        "description": "Lamb leg meat simmered with spices.",
+        "meat": "lamb",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou003",
+        "dishName": {
+            "english": "Tofu Fish Soup",
+            "chinese": "豆腐魚湯"
+        },
+        "description": "Sweet osmanthus fish/crucian carp/perch, tofu, and millet simmered.",
+        "meat": "fish",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou004",
+        "dishName": {
+            "english": "Vegetable Meatball Soup",
+            "chinese": "時蔬丸子湯"
+        },
+        "description": "Seasonal vegetables and pork meatballs in broth.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou005",
+        "dishName": {
+            "english": "Clear Braised Oxtail Soup",
+            "chinese": "清燉牛尾湯"
+        },
+        "description": "Oxtail stewed with spices.",
+        "meat": "beef",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou006",
+        "dishName": {
+            "english": "Lotus Root and Pork Bone Soup",
+            "chinese": "蓮藕筒骨湯"
+        },
+        "description": "Lotus root and pork bones simmered.",
+        "meat": "pork",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou007",
+        "dishName": {
+            "english": "Tomato Seaweed Egg Drop Soup",
+            "chinese": "番茄紫菜蛋花湯"
+        },
+        "description": "Tomatoes, seaweed, dried shrimp, and eggs combined.",
+        "meat": "seafood, egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou008",
+        "dishName": {
+            "english": "Watercress Omelette Soup",
+            "chinese": "潺菜煎蛋湯"
+        },
+        "description": "Watercress and omelette in broth.",
+        "meat": "egg",
+        "isVegan": false,
+        "isSpicy": false
+    },
+    {
+        "tokenName": "sou009",
+        "dishName": {
+            "english": "Kimchi Tofu Soup",
+            "chinese": "泡菜豆腐湯"
+        },
+        "description": "Lorem",
+        "meat": "other",
+        "isVegan": false,
+        "isSpicy": false
     }
+    
 ]
