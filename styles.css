@@ -1,0 +1,105 @@
+/* Page styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Beige-050);
+    font-family: 'KuMincho', sans-serif; /* Ensure this font is suitable for mobile */
+}
+
+main {
+    padding: 32px;
+}
+
+/* Section styling */
+main section {
+    margin-bottom:4rem;
+}
+
+.dish-container > div {
+    margin-bottom: 40px;
+}
+
+/* Media standards */
+.logo {
+    max-width: 80%; /* More responsive sizing */
+}
+
+/* Nav styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--Beige-100);
+}
+.hidden {
+    display: none;
+}
+.menu-icon {
+    cursor: pointer;
+}
+
+/* Dish entry styling */
+.dishNameCN {
+    height: 18px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    margin: 0 auto 12px;
+
+}
+.dishNameEN {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.dishDescription {
+    font-size: 14px;
+    margin-bottom: 0px; 
+}
+ul {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.dishNameCN .icon {
+    width: 16px;
+    height: 16px;
+}
+
+.dishNameCN .icon:first-child {
+    margin-left: 8px;
+}
+.dishNameCN .icon:not(:first-child) {
+    margin-left: 4px;
+}
+
+.dishNameEN, .dishDescription {
+    display: block; 
+    margin-top: 0px;
+}
+
+/* Index page styles */
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%; /* Allows some margin on the sides */
+}
+
+.menu-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--Beige-500); /* Button color */
+    color: var(--Beige-400);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; /* Larger font for easier tapping */
+    margin-top: 20px;
+}
