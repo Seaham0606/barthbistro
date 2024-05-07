@@ -427,10 +427,10 @@
             "english": "Kimchi Tofu Soup",
             "chinese": "泡菜豆腐湯"
         },
-        "description": "Lorem",
+        "description": "Kimchi, tofu, and bean sprouts in a spicy broth.",
         "meat": "other",
         "isVegan": false,
-        "isSpicy": false
+        "isSpicy": true
     }
     
 ]
