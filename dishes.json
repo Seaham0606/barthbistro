@@ -138,10 +138,10 @@
     {
         "tokenName": "ste007",
         "dishName": {
-            "english": "Baby Cabbage with Garlic and Vermicelli",
-            "chinese": "蒜蓉粉絲娃娃菜"
+            "english": "Steamed Enoki with Garlic Sause",
+            "chinese": "蒜蓉金针菇"
         },
-        "description": "Baby cabbage steamed with vermicelli and topped with a garlic sauce.",
+        "description": "Enoki mushroom steamed with baby cabbage and vermicelli and topped with a garlic sauce.",
         "meat": "other",
         "isVegan": true,
         "isSpicy": false
