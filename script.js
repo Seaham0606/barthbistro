@@ -74,3 +74,9 @@ function appendDetailsList(placeholder, details) {
     placeholder.appendChild(detailsList);
 }
 
+
+function toggleMenu() {
+    const navbar = document.getElementById('navbar');
+    navbar.classList.toggle('hidden');
+    navbar.classList.toggle('active');
+}
