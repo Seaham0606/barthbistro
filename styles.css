@@ -22,6 +22,11 @@ header {
     background-color: var(--Beige-100);
 }
 
+header .logo img {
+    height: 32px !important;
+    width: auto !important;
+}
+
 .hidden {
     display: none;
 }
