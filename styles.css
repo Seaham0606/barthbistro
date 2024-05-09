@@ -76,7 +76,8 @@ main section {
 
 /* Media standards */
 .logo {
-    max-width: 80%; /* More responsive sizing */
+    width: 60%;
+    max-width: 400px; /* More responsive sizing */
 }
 
 /* Dish entry styling */
