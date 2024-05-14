@@ -73,16 +73,25 @@ header .logo img {
 /* Section styling */
 main section {
     margin-bottom:4rem;
+    text-align: center;
 }
 
 .dish-container > div {
     margin-bottom: 40px;
 }
 
+.section-logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+    width: 40%;
+    max-width: 120px;
+}
+
 /* Media standards */
 .logo {
     width: 60%;
-    max-width: 400px; /* More responsive sizing */
+    max-width: 400px;
 }
 
 /* Dish entry styling */
@@ -93,7 +102,6 @@ main section {
     align-items: center;
     line-height: 1;
     margin: 0 auto 12px;
-
 }
 .dishNameEN {
     font-size: 14px;
@@ -101,7 +109,7 @@ main section {
 }
 .dishDescription {
     font-size: 12px;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
 }
 ul {
     list-style-type: disc;
