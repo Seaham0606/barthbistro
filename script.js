@@ -16,6 +16,22 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Error loading dishes:', error));
 });
 
+window.addEventListener('scroll', function() {
+    var logoContainers = document.querySelectorAll('.logo-container');
+    logoContainers.forEach(function(container) {
+        // Check if the top of the container is at or above the top of the viewport
+        const rect = container.getBoundingClientRect();
+        const stickyPoint = rect.top + window.scrollY;  // Get the actual page position of the logo container top
+        if (window.scrollY >= stickyPoint) {
+            container.classList.add('sticky');
+        } else {
+            container.classList.remove('sticky');
+        }
+    });
+});
+
+
+
 function populateDish(placeholder, dish) {
     // Create and append the Chinese name as h5
     const chineseNameHeading = document.createElement('h5');
@@ -73,7 +89,6 @@ function appendDetailsList(placeholder, details) {
     });
     placeholder.appendChild(detailsList);
 }
-
 
 function toggleMenu() {
     const navbar = document.getElementById('navbar');
