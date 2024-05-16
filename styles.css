@@ -44,7 +44,7 @@ main section {
 .section-logo {
     height: 80px; /* Initial height */
     width: 80px; /* Initial width */
-    transition: width 0.8s ease, height 0.8s ease;
+    transition: width 0.3s ease, height 0.3s ease;
 }
 
 .site-logo {
