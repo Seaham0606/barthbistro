@@ -16,19 +16,32 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Error loading dishes:', error));
 });
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', debounce(function() {
     var logoContainers = document.querySelectorAll('.logo-container');
     logoContainers.forEach(function(container) {
-        // We should check for the position relative to the viewport, not add the scrollY
         if (container.getBoundingClientRect().top <= 0) {
             container.classList.add('sticky');
         } else {
             container.classList.remove('sticky');
         }
     });
-});
+}, 10)); // You can adjust the debounce time (in ms) based on performance needs
 
 
+function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+        var context = this, args = arguments;
+        var later = function() {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+}
 
 function populateDish(placeholder, dish) {
     // Create and append the Chinese name as h5
