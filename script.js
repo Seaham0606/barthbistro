@@ -19,10 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('scroll', function() {
     var logoContainers = document.querySelectorAll('.logo-container');
     logoContainers.forEach(function(container) {
-        // Check if the top of the container is at or above the top of the viewport
-        const rect = container.getBoundingClientRect();
-        const stickyPoint = rect.top + window.scrollY;  // Get the actual page position of the logo container top
-        if (window.scrollY >= stickyPoint) {
+        // We should check for the position relative to the viewport, not add the scrollY
+        if (container.getBoundingClientRect().top <= 0) {
             container.classList.add('sticky');
         } else {
             container.classList.remove('sticky');
